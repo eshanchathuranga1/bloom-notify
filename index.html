@@ -5,22 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bloom Push Notification Service</title>
 
-    <script>
-(function(w, d) {
-  w.PushEngage = w.PushEngage || [];
-  w._peq = w._peq || [];
-  PushEngage.push(['init', {
-      appId: '080a9522-f1de-454d-bf69-8ee8426599b3'
-  }]);
-
-  var e = d.createElement('script');
-
-  e.src = 'https://clientcdn.pushengage.com/sdks/pushengage-web-sdk.js';
-  e.async = true;
-  e.type = 'text/javascript';
-  d.head.appendChild(e);
-})(window, document);
+    <!-- PushAlert -->
+<script type="text/javascript">
+        (function(d, t) {
+                var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+                g.src = "https://cdn.pushalert.co/integrate_74f73d52e6c7c04ed2070b7332e86fb2.js";
+                s.parentNode.insertBefore(g, s);
+        }(document, "script"));
 </script>
+<!-- End PushAlert -->
 
 
     
