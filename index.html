@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bloom Push Notification Service</title>
 
-     <!-- PushAlert -->
-<script type="text/javascript">
-        (function(d, t) {
-                var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-                g.src = "https://cdn.pushalert.co/integrate_74f73d52e6c7c04ed2070b7332e86fb2.js";
-                s.parentNode.insertBefore(g, s);
-        }(document, "script"));
+    <script>
+(function(w, d) {
+  w.PushEngage = w.PushEngage || [];
+  w._peq = w._peq || [];
+  PushEngage.push(['init', {
+      appId: '080a9522-f1de-454d-bf69-8ee8426599b3'
+  }]);
+
+  var e = d.createElement('script');
+
+  e.src = 'https://clientcdn.pushengage.com/sdks/pushengage-web-sdk.js';
+  e.async = true;
+  e.type = 'text/javascript';
+  d.head.appendChild(e);
+})(window, document);
 </script>
-<!-- End PushAlert -->
+
 
     
 </head>
@@ -22,7 +29,6 @@
     <h1 style="text-align: center;">Please Enable Service</h1>
 
 
-    <!-- start webpushr code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.async=1;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BBkFpteVDG7Nk79Bm5XMTYbMG_boSYIkDtuKUBZYfYsP58wmRmJvBJfv0Djy6282snIlpQbUcG8eWbpS7F5YVcA' });</script><!-- end webpushr code -->
-    
+
 </body>
 </html>
